@@ -3,16 +3,18 @@
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 576px) {
+    
+    .app-link {
+        font-size: 14px;
+    }
+}
 
 body {
     margin: 0px auto;
 
 }
 
-.basket {
-    margin: 60px auto;
-    max-width: 800px;
-}
 
 h1,
 h2,
@@ -21,11 +23,11 @@ h3 {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 38x;
 }
 
 h3 {
@@ -72,7 +74,7 @@ p {
     box-shadow: var(--box-shadow);
     color: white;
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 20px 10px;
     text-decoration: none;
     text-transform: capitalize;
 }
