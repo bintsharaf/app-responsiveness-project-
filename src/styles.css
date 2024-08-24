@@ -8,6 +8,9 @@
     .app-link {
         font-size: 14px;
     }
+    .yoga {
+        display: none;
+    }
 }
 
 body {
